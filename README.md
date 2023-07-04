@@ -23,11 +23,13 @@ The following parameters are needed:
 
 ## Example yaml data
 
+```yaml
 docker_images::data:
   debian:
     image_tags:
       - '11'
       - '12'
+```
 
 ## Example function call
 
