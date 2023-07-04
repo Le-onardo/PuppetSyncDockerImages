@@ -18,7 +18,6 @@ The following parameters are needed:
   * registry_username
   * registry_password
   * data
-    * yaml data (refer to example.yaml)
 
 # Example
 
@@ -31,6 +30,7 @@ docker_images::data:
       - '12'
 
 ## Example function call
+
 The function is called in the following way in your Puppet manifest:
 
 sync_docker_images($registry_hostname, $registry_username, $registry_password, $data)
